@@ -67,7 +67,7 @@ local syntax = {
   Terminal = { fg = z.fg, bg = z.bg },
   SignColumn = { fg = z.fg, bg = z.bg },
   FoldColumn = { fg = z.fg_alt, bg = z.black },
-  VertSplit = { fg = z.black, bg = z.bg },
+  VertSplit = { fg = z.base6, bg = z.bg },
   Folded = { fg = z.lignt_orange, bg = z.bg_highlight },
   EndOfBuffer = { fg = z.bg, bg = z.none },
   IncSearch = { fg = z.bg1, bg = z.orange },
@@ -289,6 +289,9 @@ local plugin_syntax = {
   NeogitDiffContextHighlight = { fg = z.blue },
   NeogitHunkHeader = { fg = z.fg },
   NeogitHunkHeaderHighlight = { fg = z.redwine },
+
+  -- NeoTree
+  NeoTreeTitleBar = { fg = z.blue }
 }
 
 local async_load_plugin
